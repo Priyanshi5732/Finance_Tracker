@@ -5,14 +5,15 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCfOZU-XJp9jYvZijOrDUs4lLIhImk01Yg",
-  authDomain: "finance-manager-3aeb4.firebaseapp.com",
-  projectId: "finance-manager-3aeb4",
-  storageBucket: "finance-manager-3aeb4.appspot.com",
-  messagingSenderId: "998675396777",
-  appId: "1:998675396777:web:e343239a17d3f5758691b8",
-  measurementId: "G-3TND03D7B5"
+  apiKey: "AIzaSyAjaMDa-SEZsmIhCgM_3TKZSykCvl1xEGU",
+  authDomain: "finman-f7bd3.firebaseapp.com",
+  projectId: "finman-f7bd3",
+  storageBucket: "finman-f7bd3.appspot.com",
+  messagingSenderId: "876915727932",
+  appId: "1:876915727932:web:64fc5204e5c17630afad39",
+  measurementId: "G-4S39DQGFTF"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
