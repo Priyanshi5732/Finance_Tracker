@@ -35,10 +35,10 @@ function Header2() {
         </Nav>
         <Nav>
           <NavDropdown title="Settings" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#edit-profile">Edit Profile</NavDropdown.Item>
-            <NavDropdown.Item href="#delete-profile">Delete Profile</NavDropdown.Item>
+            <NavDropdown.Item href="edit-profile">Edit Profile</NavDropdown.Item>
+            <NavDropdown.Item href="delete-profile">Delete Profile</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#logout" onClick={logoutFnc}>Logout</NavDropdown.Item>
+            <NavDropdown.Item href="logout" onClick={logoutFnc}>Logout</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
