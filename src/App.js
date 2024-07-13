@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
@@ -11,14 +11,14 @@ import Play from "./pages/Games/Play"; // Import the new Play component
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // Import the GoalProgress component
-import Welcome from './pages/TryTrading/Welcome'; // Ensure the path to Welcome.js is correct
-import Portfolio from './pages/TryTrading/Portfolio';
+import Welcome from "./pages/TryTrading/Welcome"; // Ensure the path to Welcome.js is correct
+import Portfolio from "./pages/TryTrading/Portfolio";
 
 function App() {
   console.log(process.env.REACT_APP_FIREBASE_PROJECT_ID);
+
   return (
     <>
-    
       <ToastContainer />
       <Router>
         <Routes>
@@ -27,10 +27,10 @@ function App() {
           <Route path="/setGoals" element={<SetGoals />} />
           <Route path="/dailyChores" element={<DailyChores />} />
           <Route path="/games" element={<Games />} />
-          <Route path="/games/play" element={<Play />} /> 
+          <Route path="/games/play" element={<Play />} />
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/tryTrading" element={<TryTrading />} />
-          <Route path="/welcome" element={<Welcome />} /> 
+          <Route path="/welcome" element={<Welcome />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </Router>

@@ -15,6 +15,8 @@
     "chart.js": "^4.4.3",
     "dialogflow": "^1.2.0",
     "firebase": "^10.12.2",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "plotly.js": "^2.33.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.3",
