@@ -15,8 +15,10 @@ import Welcome from './pages/TryTrading/Welcome'; // Ensure the path to Welcome.
 import Portfolio from './pages/TryTrading/Portfolio';
 
 function App() {
+  console.log(process.env.REACT_APP_FIREBASE_PROJECT_ID);
   return (
     <>
+    
       <ToastContainer />
       <Router>
         <Routes>
