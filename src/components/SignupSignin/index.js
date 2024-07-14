@@ -85,13 +85,13 @@ function SignupSigninComponent() {
             placeholder={"Example@123"}
           />
         )}
-        <Button
+        <Button style={{ color: "var(--theme)", cursor: "pointer" }}
           text={isSignup ? "Signup Using Email and Password" : "Login Using Email and Password"}
           onClick={isSignup ? signupWithEmail : loginWithEmail}
         />
-        <p style={{ textAlign: "center", margin: 0 }}>or</p>
+        <p style={{ textAlign: "center" }}>or</p>
         <Button text={isSignup ? "Signup Using Google" : "Login Using Google"} />
-        <p style={{ textAlign: "center", marginTop: '1rem' }}>
+        <p style={{ textAlign: "center", marginTop: '0.5rem' }}>
           {isSignup ? "Already have an account?" : "Don't have an account?"}{" "}
           <span
             style={{ color: "var(--theme)", cursor: "pointer" }}
