@@ -70,15 +70,14 @@
 
 .action-buttons {
     position: absolute;
-    bottom: 10%;
-    right: 5%;
+    top:110%;
+    right: 13%;
 }
 
 .play-now-button {
     background-color: green;
     color: white;
     border: none;
-    margin-right: auto;
     cursor: pointer;
     font-size: 16px;
     display: flex;
